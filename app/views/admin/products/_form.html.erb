@@ -19,7 +19,7 @@
 
   <div class="my-5">
     <% if admin_product.images.any? %>
-      <div class="flex space-x-2"> <!-- Flex container to display images side by side -->
+      <div class="flex space-x-4"> <!-- Flex container to display images side by side with small space between them -->
         <% admin_product.images.each do |image| %>
           <%= image_tag image.variant(:thumb), class: "w-20 h-20 object-cover rounded-md" %>
         <% end %>
@@ -46,7 +46,15 @@
     </div>
   </div>
 
+  <div class="my-5">
+    <% unless admin_product.new_record? %>
+      <%= link_to "Product Stock", admin_product_stocks_path(admin_product), class: "underline" %>
+    <% end %>
+  </div>
 
+
+<div class="inline">
   <%= form.submit class: "rounded-lg py-3 px-5 bg-blue-600 text-white inline-block font-medium cursor-pointer" %>
+</div>
 
 <% end %>
