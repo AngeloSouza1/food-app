@@ -60,8 +60,10 @@ export default class extends Controller {
       },
       body: JSON.stringify(payload)
     }).then(response => {
-      if(response.ok){
-        window.location.href = body.url
+      if(response.ok) {
+        response.json().then(body => {
+          window.location.href = body.url
+        })
       } else {
         const errorEl = document.createElement("div")
         errorEl.innerText = `Erro ao processar seu pedido ${body.error}`
