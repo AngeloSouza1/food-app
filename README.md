@@ -60,6 +60,8 @@ FoodApp foi desenvolvido como parte do projeto final proposto pela Onebitecode. 
 
 [Assista a este vídeo sobre sua funcionalidade](https://github.com/AngeloSouza1/food-app/assets/104176076/3b60eb49-6b2c-4659-b585-27d54913c5b1)
 
+---
+
  ### 📋 Instalação
  Para executar a aplicação localmente em seu ambiente de desenvolvimento, siga estas etapas:
 
