@@ -66,12 +66,12 @@ FoodApp foi desenvolvido como parte do projeto final proposto pela Onebitecode. 
  🔹 Clone o repositório em sua máquina local.
 
   ```bash
-git clone https://github.com/AngeloSouza1/mind-app.git
+git clone https://github.com/seu-usuario/foodapp.git
 ```
  🔹 Abra o diretório do projeto
 
   ```bash
-cd mind-app
+cd foodapp
 ```
  Instale as dependências do projeto utilizando o Bundler:
 
