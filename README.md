@@ -66,7 +66,7 @@ FoodApp foi desenvolvido como parte do projeto final proposto pela Onebitecode. 
  🔹 Clone o repositório em sua máquina local.
 
   ```bash
-git clone https://github.com/seu-usuario/foodapp.git
+git clone https://github.com/AngeloSouza1/foodapp.git
 ```
  🔹 Abra o diretório do projeto
 
