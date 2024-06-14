@@ -1,4 +1,4 @@
-# FoodApp 🍔🍟🍕🌭🍻
+# FoodApp  🍔🍟🍕🌭🍻
 
 <div align="justify">
 FoodApp é uma aplicação desenvolvida para gerenciar restaurantes, facilitando a oferta de diversas categorias de produtos, processando pedidos e pagamentos, além de fornecer análises detalhadas através de um dashboard.
